@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HumanPlayer
+comment0.text=\n\ A\ concrete\ Tic-tac-toe\ player\ that\ picks\ moves\ based\ on\ what\ a\ human\ user\ told.\ \n\ Human-computer\ interaction\ is\ performed\ through\ the\ keyboard.\ \n
+comment1.params=game\ symbol
+comment1.target=HumanPlayer(Game,\ char)
+comment1.text=\ Constructor\ for\ objects\ of\ class\ HumanTicPlayer\n\ @param\ game\ -\ the\ tic-tac-toe\ game\ that\ is\ to\ be\ played\n\ @param\ symbol\ -\ the\ character\ symbol\ representing\ this\ player's\ moves\n
+comment2.params=
+comment2.target=Move\ pickMove()
+comment2.text=\ This\ method\ asks\ the\ user\ to\ pick\ a\ tic-tac-toe\ move.\ Moves\ are\ read\ from\ the\ \n\ keyboard\ and\ are\ specified\ by\ two\ characters\ rc,\ where\ r\ is\ a\ letter\ represen-\n\ ting\ the\ row\ and\ c\ is\ a\ digit\ representing\ the\ column.\ For\ instance\ a1\ means\ \n\ the\ 1st\ column\ of\ the\ first\ row\ and\ c2\ means\ the\ 2nd\ column\ of\ the\ 3rd\ row.\ \n\ If\ the\ user\ specifies\:\ a\ position\ that\ is\ outside\ the\ bound\ of\ the\ game\ board\ \n\ or,\ a\ position\ that\ is\ already\ occupied,\ an\ appropriate\ error\ message\ is\ shown\ \n\ and\ the\ user\ is\ asked\ for\ another\ position.\ If\ the\ user\ writes\ quit\ (regardless\n\ of\ case),\ the\ method\ returns\ null,\ signifying\ that\ the\ program\ should\ terminate.\n\ @override\ pickMove\ in\ class\ APlayer\n\ @return\ the\ move\ the\ user\ chose\ or\ null\ if\ the\ user\ wants\ to\ exit\n
+numComments=3
